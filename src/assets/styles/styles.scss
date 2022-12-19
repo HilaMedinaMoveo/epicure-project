@@ -1,0 +1,15 @@
+//variabels
+@import "./../variabels/variables.scss";
+
+//helpers
+@import "./../helpers/helpers.scss";
+
+//css file
+@import "../../components/navbar/Navbar.scss";
+@import "../../components/hero/Hero.scss";
+@import "../../components/upperHomepageCarrousel/UpperComponentCarrousel.scss";
+@import "../../../src/components/lowerComponentCarruosel/LowerComponentCarruosel.scss";
+@import "../../../src/components/signaturedish/SignatureDish.scss";
+@import "../../../src/components/chefoftheweek/ChefOfTheWeek.scss";
+@import "../../../src/components/epicurelogo/EpicureLogo.scss";
+@import "../../../src/components/futter/FutterComponent.scss";
