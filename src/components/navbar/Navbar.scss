@@ -2,4 +2,30 @@ nav {
 	height: 2.9rem;
 	border: 2px solid purple;
 	background-color: $whiteColor;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.25rem;
+}
+.fork-and-knife {
+	width: 2rem;
+	position: absolute;
+	height: 2rem;
+	left: 45%;
+	top: 0.43rem;
+}
+.three-icons-navbar {
+	display: flex;
+	gap: 1.25rem;
+	width: 6.25rem;
+	img {
+		width: 1.125rem;
+		height: 1.125rem;
+	}
+}
+.hamburger {
+	display: flex;
+	align-items: center;
+	width: 1.5rem;
 }
