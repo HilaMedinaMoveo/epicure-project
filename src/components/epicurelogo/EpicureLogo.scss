@@ -1,4 +1,33 @@
 .EpicureLogo {
 	height: 54.2rem;
-	background-color: darksalmon;
+	background-color: $whiteColor;
+}
+.epicure-logo-container {
+	padding-top: 24px;
+	padding-left: 20px;
+}
+.apple {
+	width: 23px;
+	height: 29.5px;
+}
+.play {
+	width: 19px;
+	height: 25px;
+}
+.one-oval-div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 7px 12px;
+	gap: 7px;
+
+	width: 180px;
+	height: 52px;
+
+	border: 0.5px solid #000000;
+	border-radius: 10px;
+}
+img {
+	width: 102px;
+	height: 95px;
 }
