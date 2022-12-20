@@ -1,4 +1,24 @@
 .FutterComponent {
 	height: 12.62rem;
-	background-color: deepskyblue;
+}
+
+span {
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 1.125rem;
+	line-height: 1.875rem;
+	text-align: center;
+	letter-spacing: 0.123rem;
+	color: $blackColor;
+}
+.futter-container {
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 9.12rem;
+	margin-left: 1.187rem;
+	gap: 2.5rem;
+	margin-top: 0.75rem;
 }
