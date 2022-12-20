@@ -1,8 +1,9 @@
 import React from "react";
 import logo from "../../assets/images/logo.svg";
-import glass from "../../assets/images/glass.svg";
 import person from "../../assets/images/person.svg";
-import bag from "../../assets/images/bag.svg";
+import searchIcon from "../../assets/images/search-icon.svg";
+
+import cartIcon from "../../assets/images/cart-icon.svg";
 import hamburger from "../../assets/images/hamburger.svg";
 
 const Navbar = () => {
@@ -15,9 +16,9 @@ const Navbar = () => {
 				<img src={logo}></img>
 			</div>
 			<div className="three-icons-navbar">
-				<img src={glass}></img>
+				<img src={searchIcon}></img>
 				<img src={person}></img>
-				<img src={bag}></img>
+				<img src={cartIcon}></img>
 			</div>
 		</nav>
 	);

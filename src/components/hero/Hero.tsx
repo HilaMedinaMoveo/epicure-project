@@ -1,16 +1,17 @@
 import React from "react";
+import searchIcon from "../../assets/images/search-icon.svg";
 
 const Hero = () => {
 	return (
 		<div className="hero">
-			<div className="search-and-h1">
-				<div>
-					<div className="hero-text">
-						<h1>Epicure works with the top chef restaurants in Tel Aviv</h1>
-						<div style={{ border: "1px red solid" }}>
-							<input></input>
-						</div>
-					</div>
+			<div className="hero-text">
+				<h1>Epicure works with the top chef restaurants in Tel Aviv</h1>
+				<div className="glass-and-input">
+					<img src={searchIcon}></img>
+					<input
+						className="input-hero"
+						placeholder="search for resturant couisine, chef "
+					></input>
 				</div>
 			</div>
 		</div>
