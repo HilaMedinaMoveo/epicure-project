@@ -1,4 +1,24 @@
 .SignatureDish {
+	height: 32.75rem;
+	background: #fafafa;
+}
+.container {
+	background: #fafafa;
 	height: 36.5rem;
-	background-color: darkolivegreen;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	padding-top: 1.5rem;
+}
+
+p {
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 1.125rem;
+	line-height: 1.875rem;
+	text-align: center;
+	letter-spacing: 0.123rem;
+	color: $blackColor;
 }
