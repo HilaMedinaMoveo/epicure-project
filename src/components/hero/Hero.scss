@@ -1,0 +1,21 @@
+.hero {
+	height: 17rem;
+	width: 100%;
+	max-width: 35.31rem;
+	background: url("./hero-picture1.png") no-repeat center center/cover;
+	@include basic-flex-style;
+}
+.hero-text {
+	border: 1px red solid;
+	padding: 5%;
+	width: 21rem;
+	height: 9rem;
+	background-color: $whiteColor;
+	opacity: 88%;
+}
+.search-and-h1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

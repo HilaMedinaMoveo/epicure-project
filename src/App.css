@@ -1,3 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 .App {
 	text-align: center;
 }
+
+/* <img src={logo}></img> */
+/* import logo from "../../assets/images/logo.svg"; */
+
+
+/* <img src={require('path')}></img> */
