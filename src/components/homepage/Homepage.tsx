@@ -13,12 +13,12 @@ const Homepage = () => {
 			<div className="wraf-div">
 				<UpperComponentCarrousel></UpperComponentCarrousel>
 				<LowerComponentCarruosel></LowerComponentCarruosel>
-			</div>
-			<SignatureDish></SignatureDish>
-			<div className="wraf-div">
+				{/* </div> */}
+				<SignatureDish></SignatureDish>
+				{/* <div className="wraf-div"> */}
 				<ChefOfTheWeek></ChefOfTheWeek>
+				<EpicureLogo></EpicureLogo>
 			</div>
-			<EpicureLogo></EpicureLogo>
 		</div>
 	);
 };
