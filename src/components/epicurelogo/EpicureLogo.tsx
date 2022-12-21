@@ -27,7 +27,7 @@ const EpicureLogo = () => {
 						</div>
 					</div>
 				</div>
-				<div className="AboutUs">About As</div>
+				<div className="AboutUs">About Us:</div>
 				<p className="lorem">
 					Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing elit.
 					<br></br> In a lacus vel justo fermentum bibendum <br></br>non eu

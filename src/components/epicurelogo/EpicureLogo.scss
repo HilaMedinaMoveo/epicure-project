@@ -46,6 +46,14 @@
 	flex-direction: column;
 	gap: 1.25rem;
 }
+.text1 {
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	color: $blackColor;
+	font-size: 18px;
+}
 .text {
 	font-family: "Helvetica Neue";
 	font-style: normal;
@@ -58,7 +66,6 @@
 	font-family: "Helvetica Neue";
 	font-style: normal;
 	font-weight: 400;
-	font-size: 0.875rem;
 	text-align: center;
 	color: $blackColor;
 }
