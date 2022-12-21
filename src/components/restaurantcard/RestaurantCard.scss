@@ -1,21 +1,15 @@
 .card-of-resturant {
 	display: flex;
 	flex-direction: column;
-	// align-items: flex-start;
 	margin-left: 1.25rem;
 	width: 245px;
 	height: 232.8px;
-	gap: 18px;
+	background: #f9f4ea;
+	margin-top: 17px;
 }
 .claro-photo {
 	width: 15.3rem;
 	height: 9.925rem;
-}
-.h1-popular {
-	@include helvetica-200-18;
-	width: 326px;
-	height: 24px;
-	margin-left: 20px;
 }
 
 .div-of-text {
@@ -34,4 +28,16 @@
 }
 .text2 {
 	@include helvetica-200-18;
+}
+.all-restuarant {
+	width: 172px;
+	height: 35px;
+	margin-left: 20px;
+	display: flex;
+	margin-top: 25px;
+}
+.arrow-icon {
+	width: 24px;
+	height: 18px;
+	margin-left: 20px;
 }
