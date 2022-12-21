@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ChefOfTheWeek from "../chefoftheweek/ChefOfTheWeek";
 import EpicureLogo from "../epicurelogo/EpicureLogo";
 import Hero from "../hero/Hero";
@@ -7,6 +7,7 @@ import SignatureDish from "../signaturedish/SignatureDish";
 import UpperComponentCarrousel from "../upperHomepageCarrousel/UpperComponentCarrousel";
 
 const Homepage = () => {
+
 	return (
 		<div>
 			<Hero></Hero>
