@@ -1,12 +1,37 @@
+.card-of-resturant {
+	display: flex;
+	flex-direction: column;
+	// align-items: flex-start;
+	margin-left: 1.25rem;
+	width: 245px;
+	height: 232.8px;
+	gap: 18px;
+}
 .claro-photo {
 	width: 15.3rem;
 	height: 9.925rem;
-	background-color: aqua;
+}
+.h1-popular {
+	@include helvetica-200-18;
+	width: 326px;
+	height: 24px;
+	margin-left: 20px;
 }
 
 .div-of-text {
-	background-color: aquamarine;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 10px;
+	width: 245px;
+	height: 81px;
+	background: #f9f4ea;
 }
+
 .text1 {
 	@include helvetica-400-18;
+}
+.text2 {
+	@include helvetica-200-18;
 }
