@@ -1,0 +1,12 @@
+.claro-photo {
+	width: 15.3rem;
+	height: 9.925rem;
+	background-color: aqua;
+}
+
+.div-of-text {
+	background-color: aquamarine;
+}
+.text1 {
+	@include helvetica-400-18;
+}
