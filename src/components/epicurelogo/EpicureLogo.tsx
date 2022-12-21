@@ -15,19 +15,19 @@ const EpicureLogo = () => {
 					<div className="one-oval-div">
 						<img className="apple" src={apple}></img>
 						<div className="oval-text">
-							<div className="text1"> Get it on </div>
+							<div className="text3"> Get it on </div>
 							<div className="text"> Google Play </div>
 						</div>
 					</div>
 					<div className="one-oval-div">
 						<img className="play" src={play}></img>
 						<div className="oval-text">
-							<div className="text1">Download on the</div>
-							<div className="text">App store</div>
+							<div className="text3"> Download on the </div>
+							<div className="text"> App store </div>
 						</div>
 					</div>
 				</div>
-				<div className="AboutUs">About As</div>
+				<div className="AboutUs">About Us:</div>
 				<p className="lorem">
 					Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing elit.
 					<br></br> In a lacus vel justo fermentum bibendum <br></br>non eu
