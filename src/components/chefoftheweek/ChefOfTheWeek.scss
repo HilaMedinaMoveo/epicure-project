@@ -1,4 +1,47 @@
 .ChefOfTheWeek {
 	height: 64.5rem;
-	background-color: darkmagenta;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.h2-chef-ot-the-week {
+	width: 331px;
+	height: 24px;
+	left: 709px;
+	top: 467px;
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 1.25px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-top: 20px;
+}
+.lorem {
+	font-style: normal;
+	line-height: 1.75rem;
+	letter-spacing: 0.133rem;
+	text-align: left;
+	// margin-left: 20px;
+}
+.chef-pic {
+	width: 298px;
+	position: relative;
+}
+.water-mark-yossi {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+
+	width: 335px;
+	position: absolute;
+	height: 51px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(255, 255, 255, 0.8);
 }

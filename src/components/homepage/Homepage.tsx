@@ -10,10 +10,14 @@ const Homepage = () => {
 	return (
 		<div>
 			<Hero></Hero>
-			<UpperComponentCarrousel></UpperComponentCarrousel>
-			<LowerComponentCarruosel></LowerComponentCarruosel>
+			<div className="wraf-div">
+				<UpperComponentCarrousel></UpperComponentCarrousel>
+				<LowerComponentCarruosel></LowerComponentCarruosel>
+			</div>
 			<SignatureDish></SignatureDish>
-			<ChefOfTheWeek></ChefOfTheWeek>
+			<div className="wraf-div">
+				<ChefOfTheWeek></ChefOfTheWeek>
+			</div>
 			<EpicureLogo></EpicureLogo>
 		</div>
 	);
