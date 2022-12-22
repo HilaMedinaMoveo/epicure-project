@@ -6,24 +6,26 @@
 	@include basic-flex-style;
 }
 .hero-text {
-	border: 1px blue solid;
-	padding: 5%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 36px 126px;
-	width: 21rem;
 	height: 9rem;
+	padding: 36px 126px;
 	background-color: $whiteColor;
 	opacity: 88%;
 	gap: 1.125rem;
-	margin-top: 3rem;
 	letter-spacing: 0.123rem;
-
-	h1 {
-		width: 19.7rem;
-	}
+}
+.epicure-text-hero {
+	padding: auto;
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 1.97px;
+	color: #000000;
 }
 
 .glass-and-input {

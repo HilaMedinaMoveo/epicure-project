@@ -7,19 +7,18 @@ import SignatureDish from "../signaturedish/SignatureDish";
 import UpperComponentCarrousel from "../upperHomepageCarrousel/UpperComponentCarrousel";
 
 const Homepage = () => {
-
 	return (
 		<div>
 			<Hero></Hero>
 			<div className="wraf-div">
 				<UpperComponentCarrousel></UpperComponentCarrousel>
 				<LowerComponentCarruosel></LowerComponentCarruosel>
-				{/* </div> */}
-				<SignatureDish></SignatureDish>
-				{/* <div className="wraf-div"> */}
-				<ChefOfTheWeek></ChefOfTheWeek>
-				<EpicureLogo></EpicureLogo>
 			</div>
+			<SignatureDish></SignatureDish>
+			<div className="wraf-div">
+				<ChefOfTheWeek></ChefOfTheWeek>
+			</div>
+			<EpicureLogo></EpicureLogo>
 		</div>
 	);
 };

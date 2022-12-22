@@ -10,15 +10,17 @@ function App() {
 	const [toggle, setToggle] = useState(false);
 
 	const dropMenu = () => {
-		console.log("hila");
-		console.log(toggle);
 		setToggle(!toggle);
+		return "name"
 	};
 	return (
 		<div className="App">
-			{toggle ? <Dropdown drop={dropMenu}></Dropdown> : <Navbar drop={dropMenu}></Navbar>}
-			{/* <Navbar drop={dropMenu}></Navbar> */}
-			{/* <Dropdown></Dropdown> */}
+			{toggle ? (
+				<Dropdown drop={dropMenu}></Dropdown>
+			) : (
+				<Navbar drop={dropMenu}></Navbar>
+			)}
+
 			<Homepage></Homepage>
 			<FutterComponent></FutterComponent>
 		</div>

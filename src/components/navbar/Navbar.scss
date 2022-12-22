@@ -31,3 +31,36 @@ nav {
 	align-items: center;
 	width: 1.5rem;
 }
+
+.frame-navbar {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 32px;
+	width: 1186px;
+	height: 36px;
+}
+
+.logo-epicure-desktop {
+	width: 32.93px;
+	height: 32px;
+}
+.epicure-nav-desktop {
+	width: 114px;
+	height: 33px;
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 27px;
+	line-height: 33px;
+	letter-spacing: 1.35px;
+	color: #000000;
+	margin-left: 5px;
+}
+.epicure-and-logo-desktop {
+	display: flex;
+	width: 162px;
+	height: 33px;
+}
