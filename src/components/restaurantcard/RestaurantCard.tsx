@@ -12,10 +12,10 @@ const RestaurantCard = () => {
 				<div className="text1">Claro</div>
 				<div className="text2">Ran Shmueli</div>
 			</div>
-			<div className="all-restuarant">
+			{/* <div className="all-restuarant">
 				<div className="all-restuarant-link"> All Restuarant</div>
 				<img className="arrow-icon" src={arrowIcon}></img>
-			</div>
+			</div> */}
 		</div>
 	);
 };

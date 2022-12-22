@@ -2,16 +2,15 @@ import React from "react";
 
 const Dropdown = (props: { drop: () => void }) => {
 	return (
-		<div onClick={props.drop}>
-			hila medina
-			<div>
-				<h1 className="rest">Resturant</h1>
-				<h1 className="chef">Chef</h1>
+		<div className="dropdown-div" onClick={props.drop}>
+			<div className="upper-div-dropdown">
+				<div className="drop-text">Resturant</div>
+				<div className="drop-text">Chef</div>
 			</div>
-			<div>
-				<h1 className="term-of">Terms of Use</h1>
-				<h1 className="contact-us">contact us</h1>
-				<h1 className="name-of">name of chef</h1>
+			<div className="footer-div-dropdown">
+				<div className="drop-text">Terms of Use</div>
+				<div className="drop-text">contact us</div>
+				<div className="drop-text">name of chef</div>
 			</div>
 		</div>
 	);

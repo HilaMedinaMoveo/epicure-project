@@ -5,9 +5,9 @@ const Hero = () => {
 	return (
 		<div className="hero">
 			<div className="hero-text">
-				<div className="epicure-text-hero">
+				<h1 className="epicure-text-hero">
 					Epicure works with the top chef restaurants in Tel Aviv
-				</div>
+				</h1>
 				<div className="glass-and-input">
 					<img src={searchIcon}></img>
 					<input
