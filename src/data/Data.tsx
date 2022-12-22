@@ -1,4 +1,4 @@
-export const RestaurantData: any = [
+export const RestaurantsData: RestaurantDataType[] = [
 	{
 		id: "1",
 		img: "../assets/restaurants-images/claro.svg",
@@ -6,3 +6,10 @@ export const RestaurantData: any = [
 		restaurantName: "claro",
 	},
 ];
+
+interface RestaurantDataType {
+	id: string,
+		img: string,
+		chefName: string,
+		restaurantName:string,
+}
