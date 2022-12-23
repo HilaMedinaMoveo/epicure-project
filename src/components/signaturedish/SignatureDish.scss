@@ -1,10 +1,10 @@
 .SignatureDish {
 	height: 32.75rem;
 	background: #fafafa;
+	gap: 6px;
 }
 .container {
 	background: #fafafa;
-	// height: 36.5rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -12,7 +12,7 @@
 	padding-top: 1.5rem;
 }
 
-p {
+.text-of-icon {
 	font-family: "Helvetica Neue";
 	font-style: normal;
 	font-weight: 200;
@@ -21,4 +21,37 @@ p {
 	text-align: center;
 	letter-spacing: 0.123rem;
 	color: $blackColor;
+}
+.the-meaning-of-our-icons {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.SignatureDish {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 39px 476px;
+		gap: 32px;
+		height: 265px;
+		background: #fafafa;
+	}
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		height: 265px;
+	}
+	.the-meaning-of-our-icons {
+		font-family: "Helvetica Neue";
+		font-style: normal;
+		font-weight: 200;
+		font-size: 1.125rem;
+		line-height: 1.875rem;
+		text-align: center;
+		letter-spacing: 0.123rem;
+		color: $blackColor;
+	}
 }

@@ -2,15 +2,15 @@
 	height: 12.62rem;
 }
 
-span {
+.footer-text {
+	height: 22px;
 	font-family: "Helvetica Neue";
 	font-style: normal;
 	font-weight: 200;
-	font-size: 1.125rem;
-	line-height: 1.875rem;
-	text-align: center;
-	letter-spacing: 0.123rem;
-	color: $blackColor;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 1.92px;
+	color: #000000;
 }
 .futter-container {
 	flex-direction: column;
@@ -19,6 +19,32 @@ span {
 	align-items: flex-start;
 	height: 9.12rem;
 	margin-left: 1.187rem;
-	gap: 2.5rem;
-	margin-top: 0.75rem;
+}
+
+@media (min-width: 768px) {
+	.FutterComponen {
+		height: 84px;
+	}
+	.futter-container {
+		margin-top: 20px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		background: #ffffff;
+		justify-content: center;
+		gap: 40px;
+		height: 84px;
+	}
+	.footer-text {
+		font-family: "Helvetica Neue";
+		font-style: normal;
+		font-weight: 200;
+		font-size: 18px;
+		line-height: 22px;
+		letter-spacing: 1.92px;
+		height: 84px;
+	}
+	.FutterComponent {
+		height: 84px;
+	}
 }
