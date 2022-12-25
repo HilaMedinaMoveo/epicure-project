@@ -3,3 +3,15 @@ $grayColor: #979797;
 $baigeColor: #f9f4ea;
 $orangeColor: #f5be00;
 $whiteColor: #fafafa;
+
+$breakpoints: (
+	"phone": 360px,
+	"tablet": 768px,
+	"desktop": 1366px,
+	"LGdesktop": 1920px,
+) !default;
+
+// $breakpoint-tablet: 768px;
+// @media (min-width: $breakpoint-tablet) {
+
+// }

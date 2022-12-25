@@ -1,0 +1,11 @@
+// @import "./../../assets/breackpoints/breackpoints.scss";
+.wraf-div {
+	padding: 0 1.25rem;
+}
+
+@media (min-width: 768px) {
+	.wraf-div {
+		background-color: aqua;
+		padding: 0 127px;
+	}
+}

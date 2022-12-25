@@ -2,8 +2,6 @@ h1 {
 	font-family: "Helvetica Neue";
 	font-style: normal;
 	font-weight: 200;
-	width: 101px;
-	height: 35px;
 	font-size: 20px;
 	line-height: 23px;
 	color: $blackColor;
@@ -30,4 +28,19 @@ h1 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
+}
+@mixin lorem {
+	font-style: normal;
+	line-height: 1.75rem;
+	letter-spacing: 0.133rem;
+	text-align: left;
+}
+@mixin dropdown {
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 1.92px;
+	color: #000000;
 }

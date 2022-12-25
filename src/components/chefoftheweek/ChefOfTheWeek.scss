@@ -1,4 +1,64 @@
 .ChefOfTheWeek {
 	height: 64.5rem;
-	background-color: darkmagenta;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 40px;
+}
+.h2-chef-ot-the-week {
+	width: 331px;
+	height: 24px;
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 1.25px;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: left;
+}
+.yossi-text {
+	width: 335px;
+	height: 252px;
+	left: 20px;
+	top: 2239px;
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: justify;
+	letter-spacing: 1.25px;
+	color: #000000;
+}
+.chef-pic {
+	width: 298px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	width: 100%;
+}
+.water-mark-yossi {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	height: 51px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(255, 255, 255, 0.8);
+}
+.chef-photo {
+	width: 378px;
+	height: 338px;
+}
+.BestdishesComp_body {
+	// border: 1px solid red;
+	width: 100vw;
 }

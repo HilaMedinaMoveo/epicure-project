@@ -28,18 +28,18 @@ const EpicureLogo = () => {
 					</div>
 				</div>
 				<div className="AboutUs">About Us:</div>
-				<p className="lorem">
+				<div className="lorem">
 					Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing elit.
 					<br></br> In a lacus vel justo fermentum bibendum <br></br>non eu
 					ipsum. Cras porta malesuada <br></br>eros, eget blandit turpis
-					suscipit at.<br></br> Vestibulum sed massa in magna sodales<br></br>{" "}
+					suscipit at.<br></br> Vestibulum sed massa in magna sodales<br></br>
 					porta. Vivamus elit urna, dignissim a<br></br> vestibulum.
-				</p>
-				<p className="lorem">
+				</div>
+				<div className="lorem">
 					Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing elit. In a
 					<br></br>lacus vel justo fermentum<br></br> bibendum no<br></br> eu
 					ipsum. Cras porta malesuada eros.
-				</p>
+				</div>
 			</div>
 		</div>
 	);

@@ -1,0 +1,50 @@
+.FutterComponent {
+	height: 12.62rem;
+}
+
+.footer-text {
+	height: 22px;
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 1.92px;
+	color: #000000;
+}
+.futter-container {
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 9.12rem;
+	margin-left: 1.187rem;
+}
+
+@media (min-width: 768px) {
+	.FutterComponen {
+		height: 84px;
+	}
+	.futter-container {
+		margin-top: 20px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		background: #ffffff;
+		justify-content: center;
+		gap: 40px;
+		height: 84px;
+	}
+	.footer-text {
+		font-family: "Helvetica Neue";
+		font-style: normal;
+		font-weight: 200;
+		font-size: 18px;
+		line-height: 22px;
+		letter-spacing: 1.92px;
+		height: 84px;
+	}
+	.FutterComponent {
+		height: 84px;
+	}
+}

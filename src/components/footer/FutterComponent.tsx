@@ -4,12 +4,11 @@ const FutterComponent = () => {
 	return (
 		<div className="FutterComponent">
 			<div className="futter-container">
-				<span>Contact Us</span>
-				<span>Term Of Use</span>
-				<span>Privacy Policy</span>
+				<div className="footer-text">Contact Us</div>
+				<div className="footer-text">Term Of Use</div>
+				<div className="footer-text">Privacy Policy</div>
 			</div>
 		</div>
 	);
 };
-
 export default FutterComponent;

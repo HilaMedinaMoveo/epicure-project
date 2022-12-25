@@ -7,19 +7,22 @@ const SignatureDish = () => {
 	return (
 		<div className="SignatureDish">
 			<div className="container">
-				<p>Signature of dish</p>
-				<div>
-					<img src={spicy}></img>
+				<div className="text-of-signature ">Signature of dish</div>
+				<div className="the-meaning-of-our-icons">THE MEANING OF OUR ICONS</div>
+				<div className="div-of-icons-and-texts">
+					<div className="text-and-icon">
+						<img className="spicy-icon" src={spicy}></img>
+						<div className="text-of-icon">Spicy</div>
+					</div>
+					<div className="text-and-icon">
+						<img src={leaf}></img>
+						<div className="text-of-icon">Vegiterian</div>
+					</div>
+					<div className="text-and-icon">
+						<img src={oneLeaf}></img>
+						<div className="text-of-icon">Vegan</div>
+					</div>
 				</div>
-				<p>Spicy</p>
-				<div>
-					<img src={leaf}></img>
-				</div>
-				<p>Vegiterian</p>
-				<div>
-					<img src={oneLeaf}></img>
-				</div>
-				<p>Vegan</p>
 			</div>
 		</div>
 	);

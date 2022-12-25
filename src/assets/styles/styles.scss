@@ -1,3 +1,6 @@
+//breackpoints
+@import "./../breackpoints/breackpoints.scss";
+
 //variabels
 @import "./../variabels/variables.scss";
 
@@ -5,6 +8,7 @@
 @import "./../helpers/helpers.scss";
 
 //css file
+
 @import "../../components/navbar/Navbar.scss";
 @import "../../components/hero/Hero.scss";
 @import "../../components/upperHomepageCarrousel/UpperComponentCarrousel.scss";
@@ -12,5 +16,10 @@
 @import "../../../src/components/signaturedish/SignatureDish.scss";
 @import "../../../src/components/chefoftheweek/ChefOfTheWeek.scss";
 @import "../../../src/components/epicurelogo/EpicureLogo.scss";
-@import "../../../src/components/footer/FooterComponent.scss";
-@import "../../../src/components/restaurantcard/RestaurantCard.scss";
+// @import "../../../src/components/restaurantcard/RestaurantCard.scss";
+@import "../../../src/components/footer/FutterComponent.scss";
+@import "../../../src/components/homepage/Homepage.scss";
+@import "../../../src/components/deopdown/Dropdown.scss";
+@import "../../../src/components/emptybag/Emptybag.scss";
+@import "../../../src/components/slider/Slider.scss";
+@import "../../../src/components/search-navbar/Searchnavbar.scss";

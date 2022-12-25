@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ChefOfTheWeek from "../chefoftheweek/ChefOfTheWeek";
 import EpicureLogo from "../epicurelogo/EpicureLogo";
 import Hero from "../hero/Hero";
@@ -10,10 +10,14 @@ const Homepage = () => {
 	return (
 		<div>
 			<Hero></Hero>
-			<UpperComponentCarrousel></UpperComponentCarrousel>
-			<LowerComponentCarruosel></LowerComponentCarruosel>
+			<div className="wraf-div">
+				<UpperComponentCarrousel></UpperComponentCarrousel>
+				<LowerComponentCarruosel></LowerComponentCarruosel>
+			</div>
 			<SignatureDish></SignatureDish>
-			<ChefOfTheWeek></ChefOfTheWeek>
+			<div className="wraf-div">
+				<ChefOfTheWeek></ChefOfTheWeek>
+			</div>
 			<EpicureLogo></EpicureLogo>
 		</div>
 	);
