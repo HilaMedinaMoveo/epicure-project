@@ -1,45 +1,64 @@
-import React, { useState } from "react";
 import logo from "../../assets/images/logo.svg";
 import person from "../../assets/images/person.svg";
 import searchIcon from "../../assets/images/search-icon.svg";
 import cartIcon from "../../assets/images/cart-icon.svg";
 import hamburger from "../../assets/images/hamburger.svg";
-import epicureLogoNav from "../../assets/images/epicure-logo-desktop-nav.svg";
-interface Props {
-	drop: () => void;
-	// user: string;
-	// password: number;
-}
+import Toggle from "../toggle/Toggle";
 
-const Navbar = ({ drop }: Props) => {
-	// const Navbar = (props: Props) => {
+const Navbar = ({
+	setIsGeneralInfoOpen,
+	isGeneralInfoOpen,
+	setIsBagOpen,
+	isBagOpen,
+	setIsSearchOpen,
+	isSearchOpen,
+}: {
+	setIsGeneralInfoOpen: (isOpen: boolean) => void;
+	isGeneralInfoOpen: boolean;
+	setIsBagOpen: (isOpen: boolean) => void;
+	isBagOpen: boolean;
+	setIsSearchOpen: (isOpen: boolean) => void;
+	isSearchOpen: boolean;
+}) => {
 	return (
 		<nav>
 			<div className="hamburger">
-				<img onClick={drop} src={hamburger}></img>
-				{/* <img onClick={props.drop} src={hamburger}></img> */}
-				{/* {[0, 1, 2, 3].map((number) => {
-					return number;
-				})} */}
-				<div className="frame-navbar">
-					{/* <img onClick={props.drop} src={hamburger}></img> */}
-					<div className="epicure-and-logo-desktop">
-						<img className="logo-epicure-desktop" src={epicureLogoNav}></img>
-						<div className="epicure-nav-desktop">EPICURE</div>
-					</div>
-					<div>
-						<div>Resturant</div>
-						<div>chef</div>
-					</div>
-					<div className="fork-and-knife">
-						<img src={logo}></img>
-					</div>
-					<div className="three-icons-navbar">
-						<img src={searchIcon}></img>
-						<img src={person}></img>
-						<img src={cartIcon}></img>
-					</div>
-				</div>
+				<Toggle
+					src={hamburger}
+					onClick={() => {
+						setIsGeneralInfoOpen(!isGeneralInfoOpen);
+					}}
+				></Toggle>
+			</div>
+
+			<div className="fork-and-knife">
+				<img src={logo}></img>
+			</div>
+			<ul className="desktop links">
+				<li className="logo linkItem">
+					<a>EPICURE</a>
+				</li>
+				<li className="linkItem">
+					<a>Restaurants</a>
+				</li>
+				<li className="linkItem">
+					<a>Chefs</a>
+				</li>
+			</ul>
+			<div className="three-icons-navbar">
+				<Toggle
+					src={searchIcon}
+					onClick={() => {
+						setIsSearchOpen(!isSearchOpen);
+					}}
+				></Toggle>
+				<img src={person}></img>
+				<Toggle
+					src={cartIcon}
+					onClick={() => {
+						setIsBagOpen(!isBagOpen);
+					}}
+				></Toggle>
 			</div>
 		</nav>
 	);

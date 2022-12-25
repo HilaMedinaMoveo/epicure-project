@@ -1,25 +1,25 @@
-import apple from "../assets/images/apple.svg";
 import claro from "../assets/restaurants-images/claro.svg";
 
-export const RestaurantsData: RestaurantDataType[] = [
+export const FullData: FullDataType[] = [
 	// export const RestaurantsData: any = [
 	{
 		id: "1",
 		image: claro,
-		chefName: "Ran Shmueli",
 		restaurantName: "claro",
+        icon: "88"
 	},
 	{
 		id: "2",
 		image: claro,
-		chefName: "Meir Adoni",
 		restaurantName: "Lumina",
+        icon: "88"
 	},
 ];
 
-interface RestaurantDataType {
+interface FullDataType {
 	id: string;
 	image: string;
-	chefName: string;
 	restaurantName: string;
+	icon: string;
+
 }

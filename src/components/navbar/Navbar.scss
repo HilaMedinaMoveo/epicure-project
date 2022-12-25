@@ -4,7 +4,7 @@ nav {
 	background-color: $whiteColor;
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	padding: 0 1.25rem;
 	position: fixed;
@@ -14,13 +14,14 @@ nav {
 	width: 2rem;
 	position: absolute;
 	height: 2rem;
-	left: 45%;
-	top: 0.43rem;
+	left: 45.6%;
+	right: 45.62%;
+	top: 10%;
 }
 .three-icons-navbar {
+	margin-left: 140px;
 	display: flex;
 	gap: 1.25rem;
-	width: 6.25rem;
 	img {
 		width: 1.125rem;
 		height: 1.125rem;
@@ -32,35 +33,59 @@ nav {
 	width: 1.5rem;
 }
 
-.frame-navbar {
-	border: 1px solid red;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 0px;
-	gap: 32px;
-	width: 1186px;
-	height: 36px;
+.links {
+	display: none;
 }
 
-.logo-epicure-desktop {
-	width: 32.93px;
-	height: 32px;
-}
-.epicure-nav-desktop {
-	width: 114px;
-	height: 33px;
-	font-family: "Helvetica Neue";
-	font-style: normal;
-	font-weight: 200;
-	font-size: 27px;
-	line-height: 33px;
-	letter-spacing: 1.35px;
-	color: #000000;
-	margin-left: 5px;
-}
-.epicure-and-logo-desktop {
-	display: flex;
-	width: 162px;
-	height: 33px;
+@media (min-width: 768px) {
+	.hamburger {
+		display: none;
+	}
+	.three-icons-navbar {
+		margin-left: 180px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1.25rem;
+		img {
+			width: 1.125rem;
+			height: 1.125rem;
+		}
+	}
+	.fork-and-knife {
+		position: initial;
+		margin-left: 127px;
+	}
+	li {
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	.links {
+		display: flex;
+		justify-content: flex-start;
+		margin-right: auto;
+		align-items: center;
+		gap: 20px;
+		font-family: "Helvetica Neue";
+		font-style: normal;
+		font-weight: 200;
+		font-size: 18px;
+		line-height: 22px;
+		letter-spacing: 1.92px;
+		color: #000000;
+	}
+	.logo {
+		margin-left: 15px;
+		font-family: "Helvetica Neue";
+		font-style: normal;
+		font-weight: 200;
+		font-size: 27px;
+		line-height: 33px;
+
+		letter-spacing: 1.35px;
+
+		color: #000000;
+	}
 }

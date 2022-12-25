@@ -1,6 +1,7 @@
 import React from "react";
 import RestaurantCard from "../restaurantcard/RestaurantCard";
 import yossi from "../../assets/images/yossi-shitrit-image.png";
+import Slider from "../slider/Slider";
 
 const ChefOfTheWeek = () => {
 	return (
@@ -20,7 +21,9 @@ const ChefOfTheWeek = () => {
 				every <br></br>details of each and every dish.
 			</p>
 			<h2 className="h2-chef-ot-the-week">CHEF OF THE WEEK</h2>
-			<RestaurantCard></RestaurantCard>
+			<div className="BestdishesComp_body">
+				<Slider></Slider>
+			</div>
 		</div>
 	);
 };

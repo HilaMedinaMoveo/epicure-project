@@ -1,0 +1,43 @@
+.empty-bag-container {
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}
+.hold-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 25px;
+	height: 218px;
+	background: #ffffff;
+}
+
+.bag-icon {
+	width: 44.92px;
+	height: 44.92px;
+	margin-left: 20px;
+}
+.text-bag-dropdown {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	width: 145px;
+	height: 19px;
+	margin-left: 20px;
+}
+.your-bag-is {
+	width: 145px;
+	height: 19px;
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 1.97px;
+	text-transform: uppercase;
+	color: #000000;
+}

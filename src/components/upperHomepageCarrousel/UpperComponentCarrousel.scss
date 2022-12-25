@@ -1,19 +1,40 @@
-// .UpperComponentCarrousel {
-// 	height: 23.85rem;
-// }
+.UpperComponentCarrousel {
+	height: 23.85rem;
+}
 
 .h2-popular {
-	margin-top: 48px;
-	width: 331px;
+	padding-top: 48px;
+	width: 326px;
 	height: 24px;
-	// left: 709px;
-	// top: 467px;
+	left: 20px;
+	top: 367px;
 	font-family: "Helvetica Neue";
 	font-style: normal;
 	font-weight: 200;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 24px;
 	letter-spacing: 1.25px;
 	text-transform: uppercase;
 	color: #000000;
+}
+.BestdishesComp_body {
+	padding-top: 17px;
+	align-items: center;
+	width: 100%;
+}
+
+.all-restuarant {
+	display: flex;
+	flex-direction: row;
+	padding-top: 18.2px;
+}
+
+.arrow-icon {
+	height: 18px;
+	padding-left: 12px;
+	padding-top: 2px;
+}
+.card-img {
+	width: 245px;
+	height: 151.8px;
 }

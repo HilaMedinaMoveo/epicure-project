@@ -11,7 +11,27 @@
 	gap: 2rem;
 	padding-top: 1.5rem;
 }
+.text-of-signature {
+	width: 190px;
+	height: 35px;
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 35px;
+	letter-spacing: 1.25px;
+	text-transform: uppercase;
+}
 
+.div-of-icons-and-texts {
+	flex-direction: column;
+	align-items: center;
+}
+.text-and-icon {
+	flex: 1 1 0%;
+	margin-bottom: 50px;
+	flex-direction: column;
+}
 .text-of-icon {
 	font-family: "Helvetica Neue";
 	font-style: normal;
@@ -21,29 +41,39 @@
 	text-align: center;
 	letter-spacing: 0.123rem;
 	color: $blackColor;
+	margin-top: 1.5rem;
 }
+
 .the-meaning-of-our-icons {
 	display: none;
 }
 
 @media (min-width: 768px) {
+	.the-meaning-of-our-icons {
+		display: block;
+	}
+	.text-of-signature {
+		display: none;
+	}
 	.SignatureDish {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 39px 476px;
-		gap: 32px;
 		height: 265px;
 		background: #fafafa;
 	}
 	.container {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		height: 265px;
 	}
+	.div-of-icons-and-texts {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 0px;
+		gap: 40px;
+	}
+
 	.the-meaning-of-our-icons {
 		font-family: "Helvetica Neue";
 		font-style: normal;
@@ -53,5 +83,9 @@
 		text-align: center;
 		letter-spacing: 0.123rem;
 		color: $blackColor;
+	}
+	.spicy-icon {
+		width: 69px;
+		height: 57px;
 	}
 }
