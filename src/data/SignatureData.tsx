@@ -1,7 +1,10 @@
 import apple from "../assets/images/apple.svg";
+// import claro from "../assets/restaurants-images/claro.svg";
 import claro from "../assets/restaurants-images/claro.svg";
-import KitchenMarket from "../assets/restaurants-images/KitchenMarket.svg";
-import Shekel from "../assets/restaurants-images/Shekel.svg";
+import spicy from "../assets/images/spicy.svg";
+
+import kitchenMarket from "../assets/restaurants-images/kitchenMarket.svg";
+import Shekel from "../assets/restaurants-images/shekel.svg";
 
 export const SignatureData: SignatureDataType[] = [
 	{
@@ -10,14 +13,14 @@ export const SignatureData: SignatureDataType[] = [
 		restaurantName: "Claro",
 		restauratDetails:
 			"Shrimps, Glass Noodles, Kemiri Nuts, Shallots, Lemon Grass, Magic Chili Brown Coconut",
-		icon: "",
+		icon: spicy,
 		dishPrice: 88,
 		priceIcon: Shekel,
 	},
 	{
 		id: "2",
-		restaurantPic: KitchenMarket,
-		restaurantName: "Kitchen Market",
+		restaurantPic: kitchenMarket,
+		restaurantName: "Garber",
 		restauratDetails:
 			"Polenta fingers, veal cheek, magic chili cured lemon cream, yellow laksa",
 		icon: "",

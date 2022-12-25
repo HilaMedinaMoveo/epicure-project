@@ -1,4 +1,3 @@
-import apple from "../assets/images/apple.svg";
 import claro from "../assets/restaurants-images/claro.svg";
 
 export const RestaurantsData: RestaurantDataType[] = [

@@ -1,4 +1,5 @@
 import React from "react";
+import "./SignatureCard.scss";
 
 interface Props {
 	restaurantPic: string;
@@ -22,13 +23,13 @@ const SignatureCard = ({
 			<div>
 				<img className="signature-card-img" src={restaurantPic} />
 			</div>
-			<div className="div-of-text">
+			<div className="div-of-text-icon-and-price">
 				<div className="signature-card-restaurant-name">{restaurantName}</div>
 				<div className="restauratDetails">{restauratDetails}</div>
 				<div className="signature-card-item">{icon}</div>
 				<div>
 					<div className="dishprice">{dishPrice}</div>
-					<div className="priceitem">{priceIcon}</div>
+					{/* <div className="priceitem">{priceIcon}</div> */}
 				</div>
 			</div>
 		</div>

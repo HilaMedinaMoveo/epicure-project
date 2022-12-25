@@ -1,9 +1,5 @@
 import React from "react";
 import "./RestaurantCard.scss";
-import claroPhoto from "../../assets/images/claro.svg";
-import arrowIcon from "../../assets/images/arrow.svg";
-// import apple from "../../assets/images/apple.svg";
-// import { RestaurantsData } from "./../../../src/data/Data";
 
 interface Props {
 	restaurantPic: string;

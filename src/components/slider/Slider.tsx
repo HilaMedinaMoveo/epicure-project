@@ -12,6 +12,7 @@ export default class SimpleSlider extends Component {
 			slidesToShow: 1.3,
 			slidesToScroll: 1,
 			innerHeight: 400,
+			// dots: true,
 			speed: 500,
 			initialSlide: 0,
 			variableWidth: true,

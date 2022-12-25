@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { RestaurantsData } from "./../../../src/data/Data";
+// import { SignatureData } from "./../../data/SignatureData";
+import { SignatureData } from "./../../../src/data/SignatureData";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Slider.scss";
+
 import SignatureCard from "../signaturecard/SignatureCard";
 
 export default class SimpleSlider extends Component {
@@ -20,15 +22,15 @@ export default class SimpleSlider extends Component {
 		return (
 			<div style={{ marginLeft: "-20px" }}>
 				<Slider {...settings}>
-					{RestaurantsData.map((restaurant: any) => (
+					{SignatureData.map((restaurant: any) => (
 						<div className="div-of-card" key={restaurant.id}>
 							<SignatureCard
-								restaurantPic={restaurant.image}
+								restaurantPic={restaurant.restaurantPic}
 								restaurantName={restaurant.restaurantName}
-								restauratDetails={""}
-								icon={""}
-								dishPrice={0}
-								priceIcon={""}
+								restauratDetails={restaurant.restauratDetails}
+								icon={restaurant.icon}
+								dishPrice={restaurant.dishPrice}
+								priceIcon={restaurant.priceIcon}
 							/>
 						</div>
 					))}

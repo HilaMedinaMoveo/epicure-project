@@ -1,8 +1,48 @@
 .card-of-signature-dish {
+	width: 245px;
+	background: #f9f4ea;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	padding: 0px;
-	width: 245px;
 	height: 388px;
+	margin-top: 17px;
+	margin-left: 1.25rem;
+}
+.signature-card-img {
+	width: 245px;
+	height: 152px;
+}
+
+.div-of-text-icon-and-price {
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+	height: 236px;
+}
+.signature-card-restaurant-name {
+	padding-top: 16px;
+	width: 118px;
+	height: 21px;
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 2.67px;
+	color: #000000;
+}
+.restauratDetails {
+	padding-top: 20px;
+	width: 209px;
+	height: 100px;
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 1.97px;
+	color: #000000;
+}
+.signature-card-item {
+	padding-top: 21.44px;
+	height: 18px;
 }
