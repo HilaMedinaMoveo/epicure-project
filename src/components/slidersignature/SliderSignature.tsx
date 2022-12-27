@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-// import { SignatureData } from "./../../data/SignatureData";
 import { SignatureData } from "./../../../src/data/SignatureData";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import SignatureCard from "../signaturecard/SignatureCard";
 
 export default class SimpleSlider extends Component {
@@ -20,7 +17,7 @@ export default class SimpleSlider extends Component {
 			adaptiveHeight: true,
 		};
 		return (
-			<div style={{ marginLeft: "-20px" }}>
+			<div className="slider-hold-div" style={{ marginTop: "48px" }}>
 				<Slider {...settings}>
 					{SignatureData.map((restaurant: any) => (
 						<div className="div-of-card" key={restaurant.id}>

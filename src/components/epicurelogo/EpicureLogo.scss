@@ -5,10 +5,10 @@
 .epicure-logo-img {
 	width: 102px;
 	height: 95px;
+	margin-top: 24px;
 }
 
 .epicure-logo-container {
-	padding-top: 24px;
 	padding-left: 20px;
 	display: flex;
 	flex-direction: column;
@@ -22,6 +22,12 @@
 .play {
 	width: 19px;
 	height: 25px;
+}
+.oval-div {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+	margin-top: 32px;
 }
 
 .one-oval-div {
@@ -40,11 +46,6 @@
 	flex-direction: column;
 	align-items: center;
 	margin-left: 0.625rem;
-}
-.oval-div {
-	display: flex;
-	flex-direction: column;
-	gap: 1.25rem;
 }
 
 .text {
@@ -72,15 +73,35 @@
 	font-size: 1.25rem;
 	line-height: 1.43rem;
 	color: $blackColor;
+	margin-top: 30px;
 }
-.lorem {
-	line-height: 1.75rem;
-	letter-spacing: 0.133rem;
-	text-align: left;
+.lorem1 {
+	width: 331px;
+
+	font-family: "Helvetica Neue";
+	font-style: normal;
+
+	letter-spacing: 2.14px;
+	color: $blackColor;
+	text-align: start;
+
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 28px;
+	/* or 156% */
+
+	letter-spacing: 2.14px;
+}
+.lorem2 {
+	width: 306px;
+	height: 170px;
 	font-family: "Helvetica Neue";
 	font-style: normal;
 	font-weight: 200;
-	font-size: 1.125rem;
-	letter-spacing: 0.123rem;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 2.14px;
 	color: $blackColor;
+	text-align: start;
+	margin-top: -64px;
 }

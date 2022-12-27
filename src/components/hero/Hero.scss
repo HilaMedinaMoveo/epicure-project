@@ -1,19 +1,20 @@
 .hero {
 	height: 17rem;
 	width: 100%;
-	background: url("./hero-picture1.png") no-repeat center center/cover;
-	// background: url("./hero-picture1.png") no-repeat center center/contain;
 
 	@include basic-flex-style;
 	//Header spacer - nav is fixed.
 	margin-top: 2.9rem;
 }
+.hero-photo {
+	height: 100%;
+}
 .hero-text {
+	position: absolute;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	// height: 9rem;
 	width: 335px;
 	height: 144px;
 	background-color: $whiteColor;

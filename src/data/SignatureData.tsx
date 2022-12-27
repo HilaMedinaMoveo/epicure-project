@@ -1,14 +1,12 @@
 import apple from "../assets/images/apple.svg";
-// import claro from "../assets/restaurants-images/claro.svg";
-import claro from "../assets/restaurants-images/claro.svg";
 import spicy from "../assets/images/spicy.svg";
-
+import claro from "../assets/restaurants-images/claro.svg";
 import kitchenMarket from "../assets/restaurants-images/kitchenMarket.svg";
 import Shekel from "../assets/restaurants-images/shekel.svg";
 
 export const SignatureData: SignatureDataType[] = [
 	{
-		id: "2",
+		id: "1",
 		restaurantPic: claro,
 		restaurantName: "Claro",
 		restauratDetails:
