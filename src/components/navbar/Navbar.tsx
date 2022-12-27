@@ -30,7 +30,6 @@ const Navbar = ({
 					}}
 				></Toggle>
 			</div>
-
 			<div className="fork-and-knife">
 				<img src={logo}></img>
 			</div>

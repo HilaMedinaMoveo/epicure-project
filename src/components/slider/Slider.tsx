@@ -19,7 +19,7 @@ export default class SimpleSlider extends Component {
 			adaptiveHeight: true,
 		};
 		return (
-			<div style={{ marginLeft: "-20px" }}>
+			<div className="slider-hold-div">
 				<Slider {...settings}>
 					{RestaurantsData.map((restaurant: any) => (
 						<div className="div-of-card" key={restaurant.id}>

@@ -26,15 +26,31 @@
 .all-restuarant {
 	display: flex;
 	flex-direction: row;
-	padding-top: 18.2px;
+	align-items: center;
+	margin-top: 18.2px;
 }
 
 .arrow-icon {
 	height: 18px;
-	padding-left: 12px;
-	padding-top: 2px;
 }
 .card-img {
 	width: 245px;
 	height: 151.8px;
+}
+.all-restuarant-link {
+	width: 136px;
+	height: 35px;
+
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 35px;
+	/* identical to box height, or 219% */
+
+	text-align: right;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+
+	color: #000000;
 }

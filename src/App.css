@@ -6,10 +6,10 @@
 }
 .App {
 	text-align: center;
+	overflow-x: hidden;
 }
 
 /* <img src={logo}></img> */
 /* import logo from "../../assets/images/logo.svg"; */
-
 
 /* <img src={require('path')}></img> */

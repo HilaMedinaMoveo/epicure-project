@@ -1,12 +1,11 @@
 nav {
 	height: 2.9rem;
-	border: 2px solid purple;
+	border: 1px solid transparent;
 	background-color: $whiteColor;
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	// justify-content: space-around;
 	align-items: center;
-	padding: 0 1.25rem;
 	position: fixed;
 	top: 0;
 }
@@ -19,9 +18,10 @@ nav {
 	top: 10%;
 }
 .three-icons-navbar {
-	margin-left: 140px;
 	display: flex;
 	gap: 1.25rem;
+	margin-left: auto;
+	margin-right: 20px;
 	img {
 		width: 1.125rem;
 		height: 1.125rem;
@@ -30,7 +30,8 @@ nav {
 .hamburger {
 	display: flex;
 	align-items: center;
-	width: 1.5rem;
+	align-self: center;
+	margin-left: 20px;
 }
 
 .links {

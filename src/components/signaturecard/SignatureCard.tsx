@@ -26,10 +26,10 @@ const SignatureCard = ({
 			<div className="div-of-text-icon-and-price">
 				<div className="signature-card-restaurant-name">{restaurantName}</div>
 				<div className="restauratDetails">{restauratDetails}</div>
-				<div className="signature-card-item">{icon}</div>
-				<div>
+				<img className="signature-card-item" src={icon} />
+				<div className="price-and-item">
+					<img className="priceitem" src={priceIcon} />
 					<div className="dishprice">{dishPrice}</div>
-					{/* <div className="priceitem">{priceIcon}</div> */}
 				</div>
 			</div>
 		</div>
